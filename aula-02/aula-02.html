@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <!-- TABELA -->
+    <table border="1">
+        <caption>Cadastro de Pessoass</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>João Felipe</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Juliana</td>
+            <td>59</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Listas Ordenadas -->
+
+    <ol type="i">
+        <li>Azul</li>
+        <li>Amarelo</li>
+        <li>Vermelho</li>
+    </ol>
+
+    <br>
+
+    <!-- Listas não ordenadas -->
+
+    <ul style="list-style-type: none">
+        <a href="home.html"><li>Home</li></a>
+        <li>Notícias</li>
+        <li>Fale Conosco</li>
+    </ul>
+
+    <!-- Formulário -->
+    <form action="envio.php" method="post">
+        Nome: <input type="text" name="name" readonly value="João Felipe">
+        <br>
+        Senha: <input type="password" name="senha" required>
+        <br />
+        Manter Conectado: <input type="checkbox" name="manterConectado" checked>
+        <br />
+        CPF: <input type="number" name="cpf" size="14" placeholder="123.467.134-80">
+        <br>
+        Data da nascimento: <input type="date" name="dn">
+        <br>
+        <br>
+
+        <input type="radio" name="sexo" value="masculino"> Masculino
+        <input type="radio" name="sexo" value="feminino"> Feminino
+        <input type="radio" name="sexo" value="outro"> Outro
+
+        <br>
+        Cores: <input type="color">
+        <br>
+
+        <textarea rows="10" cols="30"></textarea>
+
+        <br>
+        <br>
+
+        <input type="submit" value="ENVIAR">
+
+    </form>
+
+</body>
+</html>

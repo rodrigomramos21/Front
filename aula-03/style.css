@@ -1,0 +1,35 @@
+.container {
+  max-width: 1024px;
+  height: 200vh;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: static;
+}
+
+.relative {
+  background-color: yellow;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+.fixed {
+  background-color: blue;
+  position: fixed;
+}
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 20px;
+}
+.absolute {
+  background-color: pink;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

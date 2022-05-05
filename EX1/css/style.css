@@ -1,0 +1,36 @@
+body {
+  background-color: gainsboro;
+}
+.container {
+  max-width: 1024px;
+  height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+}
+.footerRight {
+  bottom: 0px;
+  right: 0px;
+}
+.topRight {
+  top: 0px;
+  right: 0px;
+}
+
+.footerLeft {
+  bottom: 0px;
+  left: 0px;
+}
+.center {
+  z-index: 1;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background-color: green;
+}
